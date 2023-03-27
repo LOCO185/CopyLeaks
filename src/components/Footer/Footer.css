@@ -1,0 +1,29 @@
+.footer {
+  /* position: -webkit-sticky;
+    position: sticky; */
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  /* top: 100vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1600px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-height: 960px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
