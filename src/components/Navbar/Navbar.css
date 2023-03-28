@@ -8,6 +8,7 @@
   z-index: 1;
   display: flex;
   flex-direction: row;
+  height: 75px;
 }
 .logo {
   display: flex;
@@ -26,5 +27,5 @@ img {
   height: 80px;
 }
 .avatar {
-  margin-top: 5px;
+  margin-top: 2px;
 }
