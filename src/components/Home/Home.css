@@ -23,12 +23,15 @@ body {
   margin: auto;
 
 }
+
 .first {
   display: inline-block;
 }
+
 .second {
   display: inline-block;
 }
+
 .div1,
 .div2,
 .div3,
@@ -56,16 +59,25 @@ body {
   color: white;
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: #64a8eb;
 }
 
-
-/* @media screen and (max-width: 1230px) {
+#root > div > div > div.editor > div.ql-container.ql-snow {
+  border: none;
+}
+@media only screen and (max-width: 1370px) and (min-width: 680px)  {
   .boxes {
-    padding-top: 0px;
+    padding: 0px;
+    margin-left: 20px;
   }
-} */
+}
+@media only screen and (max-width: 680px) and (min-width: 320px)  {
+  .main {
+    display: block;
+  }
+}
 @media screen and (max-width: 860px) {
   .btn {
     transform: translateY(-50px);
