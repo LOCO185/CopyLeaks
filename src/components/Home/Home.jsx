@@ -37,7 +37,7 @@ const Home = () => {
         >
           <div ref={quillRef} />
         </div>
-        <div className="boxes"></div>
+        {/* <div className="boxes"></div> */}
       </div>
       <button className="btn"> Submit </button>
       <Footer />
