@@ -23,23 +23,25 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <h1>Home page</h1>
+      {/* <h1>Home page</h1> */}
       <div className="main">
         {/* <HtmlEditor /> */}
         <div
           className="editor"
           style={{
-            margin: "auto",
+            // margin: "auto",
             maxWidth: 800,
             height: 500,
+            // minHeight: "10vh",
+            // maxHeight: "100vh",
             backgroundColor: "white",
           }}
         >
           <div ref={quillRef} />
+          <button className="btn"> Submit </button>
         </div>
         {/* <div className="boxes"></div> */}
       </div>
-      <button className="btn"> Submit </button>
       <Footer />
     </div>
   );
