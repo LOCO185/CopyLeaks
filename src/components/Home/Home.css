@@ -37,8 +37,8 @@ body {
   margin: 10px;
   padding-top: 10px;
   background-color: white;
-  width: 240px;
-  height: 120px;
+  width: 300px;
+  height: 165px;
 }
 
 .btn {
@@ -60,6 +60,16 @@ body {
 
 #root > div > div > div.editor > div.ql-container.ql-snow {
   border: none;
+}
+
+@media screen and (max-width: 1370px) {
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    width: 240px;
+    height: 120px;
+  }
 }
 
 @media only screen and (max-width: 1370px) and (min-width: 680px) {
