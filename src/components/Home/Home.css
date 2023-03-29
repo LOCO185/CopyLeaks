@@ -87,6 +87,12 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .boxes {
+    display: inline-block;
+  }
+}
+
 @media screen and (max-width: 530px) {
   .btn {
     width: 145px;
@@ -106,7 +112,7 @@ body {
 @media screen and (max-width: 400px) {
   .btn {
     width: 145px;
-    transform: translateY(-80px);
+    transform: translateY(-100px);
     height: 1.3rem;
   }
 }
