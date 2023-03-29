@@ -1,10 +1,8 @@
-// import React from "react";
 import React, { useState } from "react";
 import { useQuill } from "react-quilljs";
 import "quill/dist/quill.snow.css";
 import Navbar from "../Navbar/Navbar";
 import "../Home/Home.css";
-// import HtmlEditor from "../HtmlEditor/HtmlEditor";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
@@ -23,24 +21,28 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      {/* <h1>Home page</h1> */}
       <div className="main">
-        {/* <HtmlEditor /> */}
         <div
           className="editor"
           style={{
-            // margin: "auto",
             maxWidth: 800,
             height: 500,
-            // minHeight: "10vh",
-            // maxHeight: "100vh",
             backgroundColor: "white",
           }}
         >
           <div ref={quillRef} />
           <button className="btn"> Submit </button>
         </div>
-        {/* <div className="boxes"></div> */}
+        <div className="boxes">
+          <div className="first">
+            <div className="div1"></div>
+            <div className="div2"></div>
+          </div>
+          <div className="second">
+            <div className="div3"></div>
+            <div className="div4"></div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
